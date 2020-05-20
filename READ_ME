@@ -1,0 +1,10 @@
+What does the genom.jar do:
+1. Reads the fna-file and filters the sequence, the locusTag, the proteins and the location
+2. Creates a new csv-file (microbiology.csv)
+3. Writes all filtered information in this csv-file
+
+
+How to use the genom.jar:
+	Open your cmd and type in "java -jar [jar-location] [fna-file-location]"
+	[jar-location](example): C:\\Users\\user\\...\\genom.jar
+	[fna-file-location] (example): C:\\Users\\user\\...\\GCF_000195955.2_ASM19595v2_cds_from_genomic.fna
